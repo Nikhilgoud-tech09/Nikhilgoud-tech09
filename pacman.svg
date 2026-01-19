@@ -1,1 +1,50 @@
+<svg width="600" height="120" viewBox="0 0 600 120" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="120" fill="#0d1117"/>
+
+  <!-- Dots -->
+  <g fill="#58a6ff">
+    <circle cx="100" cy="60" r="4"/>
+    <circle cx="140" cy="60" r="4"/>
+    <circle cx="180" cy="60" r="4"/>
+    <circle cx="220" cy="60" r="4"/>
+    <circle cx="260" cy="60" r="4"/>
+    <circle cx="300" cy="60" r="4"/>
+  </g>
+
+  <!-- Pac-Man -->
+  <circle cx="60" cy="60" r="18" fill="yellow">
+    <animate
+      attributeName="cx"
+      from="60"
+      to="320"
+      dur="4s"
+      repeatCount="indefinite" />
+  </circle>
+
+  <!-- Mouth -->
+  <polygon points="60,60 80,50 80,70" fill="#0d1117">
+    <animateTransform
+      attributeName="transform"
+      type="rotate"
+      from="0 60 60"
+      to="30 60 60"
+      dur="0.2s"
+      repeatCount="indefinite"/>
+  </polygon>
+
+  <!-- Ghost -->
+  <g>
+    <rect x="360" y="42" width="28" height="28" rx="14" fill="#ff4d4d">
+      <animate
+        attributeName="x"
+        from="360"
+        to="420"
+        dur="2s"
+        repeatCount="indefinite"
+        direction="alternate"/>
+    </rect>
+    <circle cx="370" cy="52" r="3" fill="white"/>
+    <circle cx="382" cy="52" r="3" fill="white"/>
+  </g>
+</svg>
 
