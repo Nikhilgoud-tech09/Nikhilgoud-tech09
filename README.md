@@ -1,5 +1,9 @@
 ## Hi there 👋
-
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Nikhilgoud-tech09/output/pacman-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Nikhilgoud-tech09/output/pacman.svg" />
+  <img alt="Pacman contribution graph" src="https://raw.githubusercontent.com/Nikhilgoud-tech09/output/pacman.svg" />
+</picture>
 
 <!--
 **Nikhilgoud-tech09/Nikhilgoud-tech09** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
