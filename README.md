@@ -1,4 +1,5 @@
 ## Hi there 👋
+![Pacman animation](https://raw.githubusercontent.com/Nikhilgoud-tech09/Nikhilgoud-tech09/main/pacman.svg)
 
 <!--
 **Nikhilgoud-tech09/Nikhilgoud-tech09** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
